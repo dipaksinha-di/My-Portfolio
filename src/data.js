@@ -1,34 +1,40 @@
+
+import corporate from './assets/corporate.png'
+import ecomm from "./assets/ecomm.png";
+import travell from "./assets/travell.png";
+import news from "./assets/news.png";
+
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Singple Page Corporate Website",
+    subtitle: " React and Tailwind CSS ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      " A simple corporate website with a single page layout, built using React and Tailwind CSS.",
+    image: corporate,
+    link: "https://developer-dusky.vercel.app/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reedbarger.com",
+    title: "A Simple Static Ecom Website ",
+    subtitle: " React and Tailwind CSS ",
+    description: "  A simple Website with a Beautiful layout, built using React and Tailwind CSS.",
+    image: ecomm,
+    link: "https://mishisa.vercel.app/",
   },
   {
     title: "DevChat",
-    subtitle: "React and Firebase",
+
+    subtitle: " Visit Nepal Website with popular Places and Blogs",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://jsbootcamp.com",
+    image: travell,
+    link: "https://visit-nepal-green.vercel.app/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: " News Website",
+    subtitle: " React and Tailwind CSS ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
+      " A simple news website with a single page layout, built using React and Tailwind CSS.",
+    image: news,
     link: "https://pythonbootcamp.com",
   },
 ];
