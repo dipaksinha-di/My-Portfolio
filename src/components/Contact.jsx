@@ -84,8 +84,10 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            I am a passionate front-end developer with experience in React.js,
+            Tailwind CSS, and modern web technologies. If you're looking for
+            someone to bring your web projects to life with attention to detail
+            and creativity, feel free to get in touch with me.
           </p>
 
           {/* Name Field */}

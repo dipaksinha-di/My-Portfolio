@@ -24,7 +24,7 @@ export default function Testimonials() {
                     className="w-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-white">
+                    <span className="title-font font-medium text-white my-2">
                       {testimonial.name}
                     </span>
                     <span className="text-gray-500 text-sm uppercase">

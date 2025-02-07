@@ -13,9 +13,11 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+            I'm skilled in HTML5, CSS3, JavaScript, and React.js, with expertise
+            in Tailwind CSS, Bootstrap, and SASS. I also have experience with
+            Git, GitHub, Vercel, and Netlify. My knowledge includes React
+            Routers, hooks, Context API, animations, sliders, and various UI
+            components to enhance user experience.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
