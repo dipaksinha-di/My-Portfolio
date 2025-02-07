@@ -10,7 +10,7 @@ export default function Navbar() {
           to="about" // Scroll to the "about" section
           smooth={true}
           duration={500}
-          className="title-font font-medium text-white mb-4 md:mb-0"
+          className="title-font font-medium text-white mb-4 md:mb-0 cursor-pointer"
         >
           <span className="ml-3 text-xl">Dipak Sinha</span>
         </Link>
@@ -19,7 +19,7 @@ export default function Navbar() {
             to="projects" // Scroll to the "projects" section
             smooth={true}
             duration={500}
-            className="mr-5 hover:text-white"
+            className="mr-5 hover:text-white cursor-pointer"
           >
             Past Work
           </Link>
@@ -27,7 +27,7 @@ export default function Navbar() {
             to="skills" // Scroll to the "skills" section
             smooth={true}
             duration={500}
-            className="mr-5 hover:text-white"
+            className="mr-5 hover:text-white cursor-pointer"
           >
             Skills
           </Link>
@@ -35,7 +35,7 @@ export default function Navbar() {
             to="testimonials" // Scroll to the "testimonials" section
             smooth={true}
             duration={500}
-            className="mr-5 hover:text-white"
+            className="mr-5 hover:text-white cursor-pointer"
           >
             Testimonials
           </Link>
@@ -44,7 +44,7 @@ export default function Navbar() {
           to="contact" // Scroll to the "contact" section
           smooth={true}
           duration={500}
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 cursor-pointer"
         >
           Hire Me
           <BsArrowRight className="w-4 h-4 ml-1" />
